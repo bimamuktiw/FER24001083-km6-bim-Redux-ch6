@@ -6,8 +6,8 @@ import { Link } from "react-router-dom/cjs/react-router-dom";
 import AuthLayout from "..";
 
 export default function Login() {
-  const [email, setEmail] = useState("falfareza@binaracademy.org");
-  const [password, setPassword] = useState("Aneh1234");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const { loading, action } = useLogin();
 
   return (
